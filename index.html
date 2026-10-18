@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="Conheça o cardápio do Felipão Lanches: hambúrgueres, porções e bebidas.">
+  <title>Cardápio | Felipão Lanches</title>
+  <link rel="stylesheet" href="felipe.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header class="topo" id="inicio">
+    <div class="topo-conteudo">
+      <div class="marca">
+        <div class="marca-simbolo" aria-hidden="true">🍔</div>
+        <div>
+          <p class="marca-apoio">BEM-VINDO AO</p>
+          <h1>FELIPÃO <span>LANCHES</span></h1>
+        </div>
+      </div>
+      <p class="topo-subtitulo">Escolha sua próxima delícia!</p>
+      <p class="topo-texto">Confira nossos lanches, porções e bebidas.</p>
+    </div>
+  </header>
+
+  <main class="conteudo">
+    <div class="barra-topo">
+      <div>
+        <p class="sobretitulo">NOSSO CARDÁPIO</p>
+        <h2>O que você vai pedir hoje?</h2>
+      </div>
+      <label class="busca">
+        <span class="sr-only">Buscar um produto</span>
+        <span aria-hidden="true">⌕</span>
+        <input type="search" id="busca" placeholder="Buscar no cardápio..." autocomplete="off">
+      </label>
+    </div>
+
+    <nav class="categorias" aria-label="Categorias do cardápio" id="categorias">
+      <button type="button" class="categoria ativa" data-categoria="todos" aria-pressed="true">🍽️ Todos</button>
+      <button type="button" class="categoria" data-categoria="tradicionais" aria-pressed="false">🍔 Tradicionais</button>
+      <button type="button" class="categoria" data-categoria="artesanais" aria-pressed="false">🔥 Artesanais</button>
+      <button type="button" class="categoria" data-categoria="porcoes" aria-pressed="false">🍟 Porções</button>
+      <button type="button" class="categoria" data-categoria="bebidas" aria-pressed="false">🥤 Bebidas</button>
+    </nav>
+
+    <div id="cardapio" aria-live="polite"></div>
+  </main>
+
+  <footer class="rodape">
+    <p>🍔 <strong>Felipão Lanches</strong></p>
+    <p>Feito para você escolher com os olhos e saborear de verdade.</p>
+    <a href="#inicio">Voltar ao topo ↑</a>
+  </footer>
+</body>
+</html>
