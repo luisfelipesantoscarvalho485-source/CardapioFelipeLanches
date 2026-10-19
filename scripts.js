@@ -3,7 +3,7 @@
 const produtos = [
   // HAMBÚRGUERES TRADICIONAIS E CACHORRO-QUENTE (fotos extraídas do vídeo)
   { categoria: 'tradicionais', nome: 'Cachorro-Quente', ingredientes: 'Salsicha ou linguiça (montagem self-service)', imagem: 'cachorro.png' },
-  { categoria: 'tradicionais', nome: 'Hambúrguer', ingredientes: 'Carne e ovo (montagem self-service)', imagem: 'hamburguer.png' },
+  { categoria: 'tradicionais', nome: 'Hambúrguer', ingredientes: 'Carne e ovo (montagem self-service)', imagem: 'burger.png' },
   { categoria: 'tradicionais', nome: 'X-Burguer', ingredientes: 'Carne e queijo (montagem self-service)', imagem: 'X-burguer.png' },
   { categoria: 'tradicionais', nome: 'X-Egg', ingredientes: 'Carne, queijo e ovo (montagem self-service)', imagem: 'X-egg.png' },
   { categoria: 'tradicionais', nome: 'X-Calabresa', ingredientes: 'Carne, queijo e calabresa (montagem self-service)', imagem: 'x-calabresa.png' },
